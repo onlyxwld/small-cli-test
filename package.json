@@ -1,0 +1,22 @@
+{
+  "name": "small-cli-test",
+  "version": "0.0.1",
+  "description": "Test Small CLI",
+  "main": "main.js",
+  "repository": "https://github.com/onlyxwld/small-cli-test.git",
+  "author": "onlyxwld <onlyxwld@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.3.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "eslint": "^4.19.1"
+  },
+  "bin": {
+    "small": "bin/small"
+  },
+  "scripts": {
+    "small": "node bin/small"
+  }
+}
